@@ -1,0 +1,41 @@
+.caja {
+  border: 5px solid black;
+  width: 380px;
+  float: left;
+  height: 380px;
+  background-color: red;
+  margin: 10px;
+}
+.header {
+  text-align: center;
+  font-size: 100px;
+  width: 90%;
+  border-radius: 20px;          
+  margin-left: 4%;     
+  background-color: #e9fccf;      
+  border: 3px #a9c2a9;                                                             
+}
+.principal { 
+  background-color: #89fcb3;
+  border: 3px #088708;
+  display: flex;
+  flex-wrap: wrap;
+  height: 800px;
+
+}
+.lista {
+  width: 65%;
+  height: 80%;
+  float: right;
+  background-color: #b1fcb3;
+  margin-left: 3%;
+  flex-grow: 1;
+  border: 3px #a9c2a9;
+}
+
+
+.ladero {
+
+  width: 20%;
+  height: auto;
+}
